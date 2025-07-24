@@ -587,7 +587,7 @@ result_site_county$Jurisdiction <- state.abb[match(result_site_county$Jurisdicti
 # NEW: ZIP CODE script
 ###########################################################################
 # Read Hawaii Zip and County mapping file
-zip_county_df <- read.csv("zip_county_mapping.csv")
+zip_county_df <- read.csv("~/R_code/zip_county_mapping.csv")
 # drop City column
 zip_county_df <- subset(zip_county_df,select=-City)
 # Rename column
@@ -887,7 +887,7 @@ writeData(
 )
 
 #Identify workbook by state and save in Output folder
-target.dir <- paste0(getwd(), "Output/")#labels output folder
+target.dir <-  "~/R_code/Output/" #labels output folder
 dir.create(target.dir) #Creates folder for outputs
 if (dir.exists(target.dir)) {
   unlink(paste0(target.dir, "*"))
