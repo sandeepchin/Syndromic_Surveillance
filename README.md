@@ -1,3 +1,3 @@
 ## This repository contains programs that interact with the National Syndromic Surveillance Program's (NSSP) Biosense platform
-* R_cloud folder contains programs that can be run in the Posit R studio Biosense enviroment to run SQL queries on the backend database and retrieve data.
-* essence_api folder contains programs that can be run from a local computer with R or Python installed. The goal of these programs is to use Essence APIs to pull data from the Essence environment. A data request is made using an API URL with parameters to pull data from an existing Essence table or dashboard.
+* ***R_cloud*** folder contains programs that can be run in the Posit R studio Biosense enviroment to run SQL queries on the backend database and retrieve data.
+* ***essence_api*** folder contains programs that can be run from a local computer with R or Python installed. The goal of these programs is to use Essence APIs to pull data from the Essence environment. A data request is made using an API URL with parameters to pull data from an existing Essence table or dashboard.
